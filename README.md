@@ -4,7 +4,7 @@ In this i  Will explain how to Run Gensyn Node
 📌Join Telegram For More - https://t.me/etccryptoairdrops
 
 Install Dependencies
-1. Update System Packages
+1. (Update System Packages``` )
 
 sudo apt-get update && sudo apt-get upgrade -y
 (``` 2. Install General Utilities and Tools)
