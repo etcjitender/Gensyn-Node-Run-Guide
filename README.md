@@ -79,6 +79,11 @@ source .venv/bin/activate
 
 
 
+
+
+
+
+
 * FOR VPS
 
 ```
