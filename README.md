@@ -17,11 +17,6 @@
 
 **❌The Node Wont work on low Specs Devices, See you Specs ❌**
 
-* For Vps [Vps Details]
-```
-ssh username@ip
-```
-
 
 ## Install Dependencies
 **. Update System Packages**
