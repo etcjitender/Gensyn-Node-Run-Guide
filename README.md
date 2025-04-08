@@ -51,3 +51,100 @@ python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 
 
 That All Hope you are able to run Node without any problem 🚀🚀🚀
+
+
+How To start the Next Day PC
+
+*
+ ```
+  cd rl-swarm
+ ```
+
+*
+ ```
+  python3 -m venv .venv
+```
+
+*
+```
+source .venv/bin/activate
+```
+
+*
+```
+./run_rl_swarm.sh
+```
+
+
+
+
+
+* FOR VPS
+
+```
+ssh username@ip
+```
+
+
+
+How to Login or access  Website  in VPS? 📶
+
+* Open a new Terminal and login ur vps 
+
+* Allow Incoming connection on VPS
+
+```
+sudo apt install ufw -y
+sudo ufw allow 3000/tcp
+```
+
+* Enable ufw
+
+```
+sudo ufw enable
+```
+
+* Install cloudflared on the VPS
+
+```
+wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+````
+
+```
+sudo dpkg -i cloudflared-linux-amd64.deb
+```
+
+* Check version
+
+```
+cloudflared --version
+```
+
+* Make sure your Node is running on port 3000 in Previous Screen
+
+* Run the tunnel command
+
+```
+cloudflared tunnel --url 
+```
+
+* Access the Link from your local machine
+
+
+* Now follow Login!
+
+
+Save your `swarm.pem` file (for future login)
+
+* open a wsl window 
+
+* If U have to copy this file to your local machine from VPS then Run this command from your local Terminal--
+
+```
+scp USERNAME@YOUR_IP:~/rl-swarm/swarm.pem ~/swarm.pem
+```
+
+It will save here in ur Terminal's Root Directory!
+
+
+
